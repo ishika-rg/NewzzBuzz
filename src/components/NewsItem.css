@@ -1,0 +1,88 @@
+.card{
+    height: 22rem;
+    /* overflow-y: hidden; */
+    /* cursor: pointer; */
+}
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: fill;
+}
+/* .card-img-top img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.25rem 0.25rem 0 0 ;
+
+} */
+.card-title{
+    text-align: left;
+}
+.card-text{
+    text-align: left;
+}
+/* .card-body{ */
+    /* overflow-y: scroll; */
+
+/* pagination css */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination .previous{
+    margin-right: 20px;
+}
+.pagination .next{
+    padding: 0 25px;
+    text-align: center;
+}
+.author{
+   text-align: left;
+   font-size: 13px;
+}
+.badgeDiv{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}
+.badge{
+    background-color: #e21727;
+    z-index: 1;
+    left: 90%;
+}
+
+.btn1{
+    padding: 0 10px;
+    height: 25px;
+    font-size: 14px;
+    border: 0;
+    color: white;
+    text-align: center;
+    background-color: #e21727;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}
+
+.btn1:hover{
+    cursor: pointer;
+    color: white !important;
+}
+
+.btn1Saved{
+    padding: 0 10px;
+    height: 25px;
+    font-size: 14px;
+    border: 0;
+    color: white;
+    text-align: center;
+    background-color: #6d2228;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+    
+
+}

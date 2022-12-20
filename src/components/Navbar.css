@@ -1,0 +1,48 @@
+.navbar{
+   background-color: #e21727;
+   
+}
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+.nav-link {
+    color: white;
+}
+
+.nav-item:hover{
+    background-color: #dd5460;
+    box-shadow: inset 0 -1px 0 0 black; 
+
+}
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    color: black !important;
+
+}
+.bookmark{
+    color: white;
+}
+.form-check{
+    color: white;
+}
+.form-switch, .form-check{
+    padding-left: 0;
+    margin-right: 2rem;
+    padding-right: 2rem;
+}
+.theme:hover{
+    cursor: pointer;
+}
+.bookmark:hover{
+    cursor: pointer;
+    color: white;
+}
+.mode{
+    border : none;
+    background-color: transparent;
+}
+
+.dark {
+    background-color: black;
+}
